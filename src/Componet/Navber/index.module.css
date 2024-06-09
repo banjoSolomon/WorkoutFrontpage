@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 160px;
+
+}
+
+.midSection {
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+.logoContainer {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+
+

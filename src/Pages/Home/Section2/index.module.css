@@ -1,0 +1,36 @@
+.popularExerciseContainer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 54px;
+    font-weight: bold;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: gray;
+    margin-left: -20px; /* Adjust as needed */
+}
+
+.imagesContainer, .imagesContainer1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.popularExerciseContainer img {
+    margin: 0 300px; /* Adjust the horizontal margin as needed */
+}

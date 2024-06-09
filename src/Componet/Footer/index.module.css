@@ -1,0 +1,49 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 156px;
+}
+
+.workOutContainer, .stayStrongContainer, .intensityContainer, .topContainer, .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.workOut, .stayStrong, .intensity, .simpleWorkout, .burn {
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.numImage {
+    margin-right: 20px;
+}
+
+.videoCount, .videoCount1 {
+    font-size: 26px;
+    color: gray;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.horizontalLine, .topHorizontalLine {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.topHorizontalLine {
+    margin-bottom: 10px;
+}
+
+.horizontalLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.arrow, .arrow1 {
+    margin-left: 20px;
+}

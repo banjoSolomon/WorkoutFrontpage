@@ -1,0 +1,106 @@
+.programContainer {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.program {
+    font-size: 170px;
+    display: inline-grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    text-align: center;
+    margin-left: 130px;
+    width: 200px;
+    font-weight: bold;
+    position: relative;
+}
+
+.paint {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 420%;
+    height: 120%;
+    object-fit: contain;
+    z-index: -2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 10px;
+    width: 178px;
+    height: 72px;
+    padding: 14px 32px;
+    gap: 8px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    margin-top: 20px;
+    margin-right: 700px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 1000px;
+}
+
+.gif img {
+    width: 1300px;
+    height: auto;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 120px;
+}
+
+.personContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.guy {
+    width: 550px;
+    height: auto;
+    margin-right: 310px;
+}
+
+.girl, .girl2 {
+    width: 300px;
+    height: auto;
+}
+
+.textContainer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textContainer p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trainerText {
+    color: gray;
+}
